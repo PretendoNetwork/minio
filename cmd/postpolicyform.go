@@ -63,6 +63,7 @@ var postPolicyIgnoreKeys = map[string]bool{
 	http.CanonicalHeaderKey(xhttp.AmzChecksumSHA1):   true,
 	http.CanonicalHeaderKey(xhttp.AmzChecksumSHA256): true,
 	http.CanonicalHeaderKey(xhttp.AmzChecksumMode):   true,
+	"File": true,
 }
 
 // Add policy conditionals.
